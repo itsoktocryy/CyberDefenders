@@ -1,0 +1,45 @@
+*** Failed to import volatility.plugins.registry.shutdown (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.getservicesids (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.timeliner (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.malware.apihooks (NameError: name 'distorm3' is not defined)
+*** Failed to import volatility.plugins.malware.servicediff (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.userassist (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.getsids (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.shellbags (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.evtlogs (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.tcaudit (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.dumpregistry (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.lsadump (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.malware.threads (NameError: name 'distorm3' is not defined)
+*** Failed to import volatility.plugins.mac.apihooks_kernel (ImportError: No module named distorm3)
+*** Failed to import volatility.plugins.registry.amcache (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.mac.check_syscall_shadow (ImportError: No module named distorm3)
+*** Failed to import volatility.plugins.malware.svcscan (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.auditpol (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.ssdt (NameError: name 'distorm3' is not defined)
+*** Failed to import volatility.plugins.registry.registryapi (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.mac.apihooks (ImportError: No module named distorm3)
+*** Failed to import volatility.plugins.envars (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.shimcache (ImportError: No module named Crypto.Hash)
+UNIX 2190                 udevd/776   
+UDP      0.0.0.0         :  111 0.0.0.0         :    0                           portmap/1429 
+TCP      0.0.0.0         :  111 0.0.0.0         :    0 LISTEN                    portmap/1429 
+UDP      0.0.0.0         :  769 0.0.0.0         :    0                         rpc.statd/1441 
+UDP      0.0.0.0         :38921 0.0.0.0         :    0                         rpc.statd/1441 
+TCP      0.0.0.0         :39296 0.0.0.0         :    0 LISTEN                  rpc.statd/1441 
+UDP      0.0.0.0         :   68 0.0.0.0         :    0                         dhclient3/1624 
+UNIX 5069             dhclient3/1624  
+UNIX 4617              rsyslogd/1661  /dev/log
+UNIX 4636                 acpid/1672  /var/run/acpid.socket
+UNIX 4638                 acpid/1672  
+TCP      ::              :   22 ::              :    0 LISTEN                       sshd/1687 
+TCP      0.0.0.0         :   22 0.0.0.0         :    0 LISTEN                       sshd/1687 
+TCP      ::              :   25 ::              :    0 LISTEN                      exim4/1942 
+TCP      0.0.0.0         :   25 0.0.0.0         :    0 LISTEN                      exim4/1942 
+UNIX 5132                 login/1990  
+TCP      192.168.56.102  :43327 192.168.56.1    : 4444 ESTABLISHED                    sh/2065 
+TCP      192.168.56.102  :43327 192.168.56.1    : 4444 ESTABLISHED                    sh/2065 
+TCP      192.168.56.102  :43327 192.168.56.1    : 4444 ESTABLISHED                    sh/2065 
+TCP      192.168.56.102  :   25 192.168.56.101  :37202 CLOSE                          sh/2065 
+TCP      192.168.56.102  :   25 192.168.56.101  :37202 CLOSE                          sh/2065 
+TCP      192.168.56.102  :56955 192.168.56.1    : 8888 ESTABLISHED                    nc/2169 
