@@ -57,7 +57,7 @@
 ### Q13/. Buzzy Bees -> What is the SHA-1 hash of Minecraft's "latest" release according to the system?
 ![grepthisshitout](https://user-images.githubusercontent.com/73375576/225025523-662c94a3-5854-4f3d-abe9-2d43b9799827.jpg)
 #### save text locally
-#### $ cat version_manifest_v2.txt | grep -i sha-1
+#### $ cat version_manifest_v2.txt | grep -i sha
 #### > 3c6e119c0ff307accf31b596f9cd47ffa2ec6305
 
 ### Q14/. The RCE is base(64)d on what? -> What were the three flags and their values that were passed to powercat? The answer must be provided in the same format as the entered command. (For example, if the command was "powercat -D Y -l a -n," the answer would be "-D Y -l a -n")
