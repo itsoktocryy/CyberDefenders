@@ -47,7 +47,7 @@ A Linux server was possibly compromised and a forensic analysis is required in o
 <br />
 
 ### Q7/. What service was exploited to gain access to the system? (one word)
-####$ python2 vol.py -f victoria-v8.memdump.img --profile=LinuxDebian5_26x86 linux_psaux > linux_psaux.txt
+#### $ python2 vol.py -f victoria-v8.memdump.img --profile=LinuxDebian5_26x86 linux_psaux > linux_psaux.txt
 <br />
 <br />
 
@@ -69,6 +69,6 @@ A Linux server was possibly compromised and a forensic analysis is required in o
 ### Q11/. Which port did the attacker try to block on the firewall?
 #### $ cd /sda_mount/tmp
 #### $ sudo tar -xvf rk.tar && cd rk
-####$ cat vars.sh
+#### $ cat vars.sh
 <br />
 <br />
